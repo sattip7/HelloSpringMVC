@@ -10,7 +10,7 @@ public class HelloSpringController {
    
     @RequestMapping(value = "/hello", method = RequestMethod.GET)  
 	public String printWelcome(ModelMap model) {  
-        model.addAttribute("message", "Hello Satish Ponnam! This is Spring MVC Web Controller.");  
+        model.addAttribute("message", "Hello Satish P! This is Spring MVC Web Controller.");  
         return "output";  
     }  
 }
